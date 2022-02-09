@@ -1,0 +1,105 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+
+/* #name{
+    background-color: green;
+} 
+header{
+    background-color: palevioletred;
+} */
+.header{
+    background-color: rgb(63, 63, 230);
+    color: white;
+    height: 80px;
+    width: 85vw;
+    margin-bottom: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.logo{
+    text-transform: uppercase;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar{
+    background-color:grey;
+    color: white;
+    width: 85vw;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+.navbar :hover{
+    color: blue;
+
+}
+.navbar ul{
+    text-align: right;
+}
+.logo{
+    text-align: center;
+}
+#mainContent{
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#portada{
+    width:78%;
+    background: rgb(104, 102, 102);
+    padding: 1.6em;
+    box-sizing: border-box;
+}
+.destacado, .default{
+    background: white;
+    padding: 0.7em;
+}
+.destacado{
+    margin-bottom: 0.6em;
+}
+.default{
+    box-sizing: border-box;
+    width: 50%;
+    height: 500%;
+}
+.imgNota img{
+    width: 100%;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(145,145, 245);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
