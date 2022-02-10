@@ -92,6 +92,39 @@ header{
     width: 100%;
 }
 
+
+/* Estilos de la Página de contacto*/
+#formContacto{
+    padding: 1.2em;
+    background: rgb(133,139,133);
+    border-radius: 15px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+#formContacto input, #formContacto select, #formContacto textarea{
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#formContacto input[type="submit"]:hover{
+    background: blue;
+    color: white;
+}
+#formContacto input[type="submit"]{
+    width: 50%;
+}
+#formContacto input:focus{
+    background: rgb(179, 171, 171)
+}
+#formContacto input:invalid{
+    border: 3px solid red;
+}
+#formContacto input:valid{
+    border:3px solid green;
+}
 footer{
     clear: both;
     background-color: rgb(145,145, 245);

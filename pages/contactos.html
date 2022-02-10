@@ -36,10 +36,48 @@
         </li>
     </ul>
 </nav>
-<main>
-    <h1>
-        Soy el Contacto
-    </h1>
+<main id="mainContent">
+    <section id="portada">
+        <h2>Contacto de la Empresa</h2>
+        <form method="post" id="formContacto">
+            <div>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" placeholder="Introduzca su nombre aquí" required>
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Ingrese su email" required>
+            </div>
+            <div>
+                <label>Telefono:</label>
+                <input type="tel" name="telefono" placeholder="ej:(+543493668639)" required>
+            </div>
+            <div>
+                <label>Provincia:</label>
+                <select name="provincia">
+                    <option>Seleccione su Provincia</option>
+                    <option value="caba">CABA</option>
+                    <option value="sta fe">Santa Fe</option>
+                    <option value="mza">Mendoza</option>
+                    <option value="cba">Cordoba</option>
+                </select>
+            </div>
+            <div>
+                <label>Comentarios:</label>
+                <textarea name="comentario" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox">
+                    Quiero recibir información sobre novedades
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Escribenos!!" class="btn-envio">
+            </div>
+        </form>
+    </section>
+   
 </main>
 <footer>
 
